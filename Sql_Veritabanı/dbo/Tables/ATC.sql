@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[ATC] (
+    [ATC_id]   INT            NOT NULL,
+    [ATC_Kodu] NVARCHAR (255) NULL,
+    [ATC_Adi]  NVARCHAR (255) NULL,
+    CONSTRAINT [PK_ATC] PRIMARY KEY CLUSTERED ([ATC_id] ASC)
+);
+
